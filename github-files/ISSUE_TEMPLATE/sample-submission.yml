@@ -1,0 +1,46 @@
+name: Sample submission
+description: Share synthetic .adt/.adm files generated with samples/generate_samples.sql
+title: "Samples: ADS <version>"
+labels: ["samples"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you! Please follow [samples/README.md](https://github.com/JohnnyTrindade/adt-reader/blob/main/samples/README.md).
+        **Only synthetic data.** Never attach real customer data.
+  - type: input
+    id: ads_version
+    attributes:
+      label: ADS / Advantage Data Architect version
+      placeholder: "e.g. ADS 12.0.0.10, ARC 12.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: charset
+    attributes:
+      label: Character set of the connection
+      options: ["ANSI", "OEM", "Not sure"]
+    validations:
+      required: true
+  - type: input
+    id: collation
+    attributes:
+      label: Collation (if known)
+  - type: textarea
+    id: errors
+    attributes:
+      label: SQL errors
+      description: Statements from generate_samples.sql that failed, with the error message
+      render: text
+  - type: textarea
+    id: manual
+    attributes:
+      label: Manual edits
+      description: Bytes you entered by hand in t_raw / t_blob, if any
+  - type: textarea
+    id: files
+    attributes:
+      label: Attach the zip here
+      description: The .adt and .adm files (and .adi if you like)
+    validations:
+      required: true

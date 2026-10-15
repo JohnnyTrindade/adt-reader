@@ -1,0 +1,10 @@
+{
+  "sql_type": "BLOB",
+  "note": "add a small binary value by hand in Data Architect if possible",
+  "rows": [
+    {
+      "id": 1,
+      "v": null
+    }
+  ]
+}

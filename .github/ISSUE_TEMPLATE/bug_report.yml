@@ -1,0 +1,25 @@
+name: Bug report
+description: The reader crashed or returned wrong values
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: Command or code you ran, the output, and what you expected
+    validations:
+      required: true
+  - type: textarea
+    id: info
+    attributes:
+      label: Output of `adt info yourfile.adt`
+      render: text
+  - type: input
+    id: version
+    attributes:
+      label: adtreader version / Python version
+  - type: markdown
+    attributes:
+      value: |
+        Please do **not** attach files with real customer data. If the problem only shows up with
+        a private file, try reproducing it with a synthetic table (see samples/README.md).

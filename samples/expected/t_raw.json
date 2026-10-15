@@ -1,0 +1,10 @@
+{
+  "sql_type": "RAW(4)",
+  "note": "add a non-NULL row by hand in Data Architect if possible",
+  "rows": [
+    {
+      "id": 1,
+      "v": null
+    }
+  ]
+}

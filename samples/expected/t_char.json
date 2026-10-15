@@ -1,0 +1,26 @@
+{
+  "sql_type": "CHAR(20)",
+  "note": "empty string vs NULL is one of the open questions",
+  "rows": [
+    {
+      "id": 1,
+      "v": "abc"
+    },
+    {
+      "id": 2,
+      "v": null
+    },
+    {
+      "id": 3,
+      "v": "ação ÇÃO ü ß"
+    },
+    {
+      "id": 4,
+      "v": "12345678901234567890"
+    },
+    {
+      "id": 5,
+      "v": null
+    }
+  ]
+}

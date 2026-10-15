@@ -1,0 +1,17 @@
+{
+  "sql_type": "CHAR(10)",
+  "note": "record id=2 is deleted; reader must skip it by default",
+  "rows": [
+    {
+      "id": 1,
+      "v": "keep"
+    },
+    {
+      "id": 3,
+      "v": "keep"
+    }
+  ],
+  "deleted_ids": [
+    2
+  ]
+}
