@@ -1,4 +1,4 @@
-name: Sample submission
+﻿name: Sample submission
 description: Share synthetic .adt/.adm files generated with samples/generate_samples.sql
 title: "Samples: ADS <version>"
 labels: ["samples"]
@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thank you! Please follow [samples/README.md](<REPO_URL>/blob/main/samples/README.md).
+        Thank you! Please follow [samples/README.md](https://github.com/JohnnyTrindade/adt-reader/blob/main/samples/README.md).
         **Only synthetic data.** Never attach real customer data.
   - type: input
     id: ads_version
